@@ -1,0 +1,12 @@
+{
+  "useTabs": true,
+  "singleQuote": false,
+  "trailingComma": "es5",
+  "jsxSingleQuote": false,
+  "arrowParens": "always",
+  "svelteAllowShorthand": true,
+  "svelteStrictMode": true,
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 140
+}
