@@ -1,13 +1,13 @@
 {
-	"name": "bibe-basen",
+	"name": "@bber/basen",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "kiju",
 	"license": "MIT",
 	"scripts": {
 		"build": "rimraf dist && tsc -p tsconfig.build.json",
 		"test": "jest --coverage --verbose",
-		"publish": "yarn test && yarn build && npm publish"
+		"publish": "yarn test && yarn build && npm publish --access=public"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.0.2",
@@ -24,5 +24,6 @@
 		"typescript": "^4.4.4"
 	},
 	"main": "dist/lib.js",
+	"directories": {"lib": "dist"},
 	"types": "dist/lib.d.ts"
 }

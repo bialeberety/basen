@@ -8,3 +8,5 @@ dist
 .env.production
 
 coverage
+package
+.tgz

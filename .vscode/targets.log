@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Nov 13 09:56:27 2021
+# Make data base, printed on Sat Nov 13 14:41:24 2021
 
 # Variables
 
@@ -21,15 +21,17 @@ USERPROFILE = C:\Users\kuba
 # environment
 LOCALAPPDATA = C:\Users\kuba\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-52190b62-0985-4db7-b468-4ccd380c04a7-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d20cc060-10ea-4369-99e1-3fec6afa6e15-sock
 # environment
-VSCODE_CWD = C:\Users\kuba\AppData\Local\Programs\Microsoft VS Code
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+VSCODE_CWD = C:\Users\kuba\dev\bialeberety\basen
 # environment
 SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Users\kuba\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/Users/kuba/scoop/apps/make/current/bin/make.exe
 # environment
@@ -37,7 +39,7 @@ GOPATH = C:\Users\kuba\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10680_FVFOWBPTXNXEZDKI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6492_IFMSRUQYNQOHJUOU
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -93,9 +95,11 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 10680
+VSCODE_PID = 6492
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -135,6 +139,8 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
+WT_SESSION = 14686c80-d4ce-4112-a0ff-751b41464786
+# environment
 LOGONSERVER = \\DESKTOP-FGAU6NP
 # environment
 VSCODE_LOG_NATIVE = false
@@ -147,7 +153,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
 # automatic
 +F = $(notdir $+)
 # environment
@@ -198,6 +204,10 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -205,7 +215,7 @@ PROCESSOR_REVISION = 3a09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=96/1024=9%, Rehash=0, Collisions=10/122=8%
+# Load=101/1024=10%, Rehash=0, Collisions=12/127=9%
 
 # Pattern-specific Variable Values
 
@@ -226,7 +236,8 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-11-11 11:14:40
+#  Last modified 2021-11-11 11 
+:14:40
 #  File has been updated.
 #  Successfully updated.
 
@@ -257,7 +268,6 @@ all:
 # strcache performance: lookups = 15 / hit rate = 26%
 # hash-table stats:
 # Load=11/8192=0%, Rehash=0, Collisions=0/15=0%
-# Finished Make data base on Sat Nov 13  
-09:56:27 2021
+# Finished Make data base on Sat Nov 13 14:41:24 2021
 
  
