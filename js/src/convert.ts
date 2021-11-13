@@ -1,4 +1,4 @@
-import { convertCharToBaseTen } from "./baseTen";
+import { convertBaseTenToChar, convertCharToBaseTen } from "./baseTen";
 import { num } from "./num";
 import { ConversionNotation, UNN } from "./types";
 
@@ -35,7 +35,7 @@ export const convert = (n: UNN, target: number): ConversionNotation => {
 	while (decNumber > 0) {
 		const r = decNumber % target;
 		steps.push([decNumber.toString(), target.toString(), r.toString()]);
-		result.value = r.toString() + result.value;
+		result.value = convertBaseTenToChar(r) + result.value;
 		decNumber = Math.floor(decNumber / target);
 	}
 	return {
