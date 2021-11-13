@@ -1,15 +1,17 @@
 {
 	"compilerOptions": {
-		"target": "es5",
+		"target": "ES2019",
 		"module": "CommonJS",
-		"declaration": true,
 		"outDir": "dist",
+		"lib": ["DOM", "ESNext"],
 		"strict": true,
 		"allowJs": false,
-		"lib": ["DOM", "ESNext"],
-		"removeComments": false,
-		"rootDir": "src"
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"typeRoots": ["./node-modules/@types/"],
+		"types": ["jest", "node", "@types/jest"]
 	},
-	"files": ["src/lib.ts"],
-	"exclude": ["node_modules", "**/__tests__/*"]
+	"exclude": ["node_modules"],
+	"include": ["src"]
 }

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Nov 13 03:26:08 2021
+# Make data base, printed on Sat Nov 13 09:56:27 2021
 
 # Variables
 
@@ -21,17 +21,15 @@ USERPROFILE = C:\Users\kuba
 # environment
 LOCALAPPDATA = C:\Users\kuba\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1da762f1-23cf-4480-8f91-20722f96f461-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-52190b62-0985-4db7-b468-4ccd380c04a7-sock
 # environment
-WSLENV = WT_SESSION::WT_PROFILE_ID
-# environment
-VSCODE_CWD = C:\Users\kuba\dev\bialeberety\basen
+VSCODE_CWD = C:\Users\kuba\AppData\Local\Programs\Microsoft VS Code
 # environment
 SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Users\kuba\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/Users/kuba/scoop/apps/make/current/bin/make.exe
 # environment
@@ -39,7 +37,7 @@ GOPATH = C:\Users\kuba\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11212_HBXPNVENYAUOATUY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10680_FVFOWBPTXNXEZDKI
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -95,11 +93,9 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 11212
+VSCODE_PID = 10680
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# environment
-WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -139,8 +135,6 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-WT_SESSION = 14686c80-d4ce-4112-a0ff-751b41464786
-# environment
 LOGONSERVER = \\DESKTOP-FGAU6NP
 # environment
 VSCODE_LOG_NATIVE = false
@@ -153,7 +147,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -204,10 +198,6 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -215,7 +205,7 @@ PROCESSOR_REVISION = 3a09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=12/127=9%
+# Load=96/1024=9%, Rehash=0, Collisions=10/122=8%
 
 # Pattern-specific Variable Values
 
@@ -223,9 +213,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/kuba/dev/bialeberety/basen, mtime 1636708458): 7 files, no impossibilities.
+# . (key c:/Users/kuba/dev/bialeberety/basen, mtime 1636813447): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -261,13 +251,13 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strca 
-che buffers: 1 (0) / strings = 10 / storage = 69 B / avg = 6 B
-# current buf: size = 8174 B / used = 69 B / count = 10 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 11 / storage = 74 B / avg = 6 B
+# current buf: size = 8174 B / used = 74 B / count = 11 / avg = 6 B
 
-# strcache performance: lookups = 14 / hit rate = 28%
+# strcache performance: lookups = 15 / hit rate = 26%
 # hash-table stats:
-# Load=10/8192=0%, Rehash=0, Collisions=0/14=0%
-# Finished Make data base on Sat Nov 13 03:26:08 2021
+# Load=11/8192=0%, Rehash=0, Collisions=0/15=0%
+# Finished Make data base on Sat Nov 13  
+09:56:27 2021
 
  
