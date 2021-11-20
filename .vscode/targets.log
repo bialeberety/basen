@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Nov 13 14:41:24 2021
+# Make data base, printed on Sat Nov 20 01:54:23 2021
 
 # Variables
 
@@ -21,7 +21,7 @@ USERPROFILE = C:\Users\kuba
 # environment
 LOCALAPPDATA = C:\Users\kuba\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d20cc060-10ea-4369-99e1-3fec6afa6e15-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8f528dda-df7b-49ee-a381-fbae72dbcfce-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -39,7 +39,7 @@ GOPATH = C:\Users\kuba\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6492_IFMSRUQYNQOHJUOU
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16088_DJCGOVGQZCISYUAX
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -55,7 +55,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\kuba\AppData\Roaming\Code\CachedData\3a6960b964327f0e3882ce18fcebd07ed191b316
+VSCODE_CODE_CACHE_PATH = C:\Users\kuba\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
 # environment
 LANG = C
 # default
@@ -95,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 6492
+VSCODE_PID = 16088
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -139,7 +139,7 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-WT_SESSION = 14686c80-d4ce-4112-a0ff-751b41464786
+WT_SESSION = ee36cd84-8f16-46eb-ac34-610bd10819dc
 # environment
 LOGONSERVER = \\DESKTOP-FGAU6NP
 # environment
@@ -193,7 +193,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\kuba\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\868fae64d980590c159473ad6da9fe58-1.62.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\868fae64d980590c159473ad6da9fe58-1.62.3-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -236,8 +236,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-11-11 11 
-:14:40
+#  Last modified 2021-11-11 11:14:40
 #  File has been updated.
 #  Successfully updated.
 
@@ -262,12 +261,13 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 11 / storage = 74 B / avg = 6 B
+# strca 
+che buffers: 1 (0) / strings = 11 / storage = 74 B / avg = 6 B
 # current buf: size = 8174 B / used = 74 B / count = 11 / avg = 6 B
 
 # strcache performance: lookups = 15 / hit rate = 26%
 # hash-table stats:
 # Load=11/8192=0%, Rehash=0, Collisions=0/15=0%
-# Finished Make data base on Sat Nov 13 14:41:24 2021
+# Finished Make data base on Sat Nov 20 01:54:23 2021
 
  

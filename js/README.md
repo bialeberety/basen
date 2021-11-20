@@ -12,3 +12,17 @@ A javascript/typescript implentation of BaseN package.
 - [ ] Error handling.
 - [ ] Negative numbers.
 - [ ] Floating point numbers.
+
+### Install
+
+Using yarn (prefered)
+
+```
+  yarn add bb-basen
+```
+
+using npm
+
+```
+  npm i bb-basen
+```
