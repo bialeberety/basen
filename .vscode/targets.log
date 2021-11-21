@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Nov 20 01:54:23 2021
+# Make data base, printed on Sun Nov 21 09:31:59 2021
 
 # Variables
 
@@ -21,7 +21,7 @@ USERPROFILE = C:\Users\kuba
 # environment
 LOCALAPPDATA = C:\Users\kuba\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8f528dda-df7b-49ee-a381-fbae72dbcfce-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-30243ab7-2e86-45b6-8230-be5709921c39-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -39,7 +39,7 @@ GOPATH = C:\Users\kuba\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16088_DJCGOVGQZCISYUAX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11032_UMWXRLXALOHKJKNA
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -95,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16088
+VSCODE_PID = 11032
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -129,7 +129,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\VulkanSDK\1.2.182.0\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\kuba\scoop\shims;C:\Users\kuba\AppData\Local\Microsoft\WindowsApps;C:\Users\kuba\go\bin;C:\Users\kuba\AppData\Roaming\npm;C:\Users\kuba\AppData\Local\Programs\Microsoft VS Code\bin
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\VulkanSDK\1.2.182.0\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\kuba\.cargo\bin;C:\Users\kuba\scoop\shims;C:\Users\kuba\AppData\Local\Microsoft\WindowsApps;C:\Users\kuba\go\bin;C:\Users\kuba\AppData\Roaming\npm;C:\Users\kuba\AppData\Local\Programs\Microsoft VS Code\bin
 # environment
 COMPUTERNAME = DESKTOP-FGAU6NP
 # default
@@ -139,7 +139,7 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-WT_SESSION = ee36cd84-8f16-46eb-ac34-610bd10819dc
+WT_SESSION = 755c09c7-9c47-4dae-9daf-e118e53d00b1
 # environment
 LOGONSERVER = \\DESKTOP-FGAU6NP
 # environment
@@ -261,13 +261,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strca 
-che buffers: 1 (0) / strings = 11 / storage = 74 B / avg = 6 B
+# strcache buffers: 1 (0) / strings = 11 / storage = 74 B / avg = 6 B
 # current buf: size = 8174 B / used = 74 B / count = 11 / avg = 6 B
 
 # strcache performance: lookups = 15 / hit rate = 26%
 # hash-table stats:
 # Load=11/8192=0%, Rehash=0, Collisions=0/15=0%
-# Finished Make data base on Sat Nov 20 01:54:23 2021
+# Finished Make data base on Sun Nov 21 09:31:59 2021
 
  

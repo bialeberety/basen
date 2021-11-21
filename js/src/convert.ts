@@ -10,8 +10,9 @@ export const convertToDec = ({ base, value }: UNN): ConversionNotation => {
 		.split("")
 		.reverse()
 		.forEach((n, i) => {
-			steps.push([convertCharToBaseTen(n).toString(), "*", base.toString(), "^", i.toString()]);
-			result.value = (parseInt(result.value) + convertCharToBaseTen(n) * base ** i).toString();
+			const power = base ** i;
+			steps.push([convertCharToBaseTen(n).toString(), "*", power.toString()]);
+			result.value = (parseInt(result.value) + convertCharToBaseTen(n) * power).toString();
 		});
 
 	return {
@@ -29,7 +30,7 @@ export const convert = (n: UNN, target: number): ConversionNotation => {
 	if (target === 10) return decConversion;
 
 	let decNumber = parseInt(decConversion.result.value);
-	const steps: string[][] = [];
+	const steps: string[][] = decConversion.steps;
 	let result = num("", target);
 
 	while (decNumber > 0) {
